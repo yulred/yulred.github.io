@@ -1,0 +1,60 @@
+<!--index.html specifies homepage; convention-->
+<!--! + tab to create header in html doc-->
+<!DOCTYPE html> <!--identifies document type, tells browser that html 5-->
+<html lang="en"> <!--sets up default language (also for e.g. Google Translate) and establishes html doc-->
+<head> <!--head =!= header, which is its own tag-->
+    <meta charset="UTF-8"> <!--characters on keyboard-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--use latest rendering engine--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsive design-->
+    <title>My first web page</title> <!--name of doc and name of browser tab-->
+</head>
+<body>
+<!--html is not affected by spaces, only by e.g. first between characters-->
+<!--tags (elements) identify parts of the text-->
+<!--attributes (descriptions) are arguments to the text-->
+
+    <h1>All About Me</h1> <!--heading 1, 2, 3-->
+
+    <p>Visit my <a href="hobbies.html">hobbies page</a></p> <!--both pages in one folder; one website, so no new window-->
+
+    <p>Hello, world! Etc., etc.</p> <!--default formatting built into browser, i.e. font size, p spacing-->
+
+    <p>Here is a picture of a kitten.</p>
+
+    <img src="http://placekitten.com/200/300" alt="Cute kitty cat." title="Cute kitty cat."> <!--imp: self-closing tag, optionally with slash at the end; attributes: source, alt text (for e.g. accessibility, broken pictures, Google; hidden if img shows fine)-->
+    <!--alt text shown on mouseover: some browsers show by default, other require title attribute-->
+
+    <p>Second p.</p>
+
+    <h2>My Fine Hobbies</h2>
+
+    <ul> <!--unordered list, neutral bullets-->
+        <li>Playing music</li> <!--list item-->
+        <li>Hiking</li>
+        <li>Travel</li>
+        <li>Teaching</li>
+    </ul>
+
+    <h2>How to Make a Peanut Butter & Jelly Sandwich</h2>
+
+    <ol> <!--ordered list, numbered bullets-->
+        <li>Take bread</li>
+        <li>Put peanut butter on bread</li>
+        <li>Put jelly on bread</li>
+    </ol>
+
+    <h2>My Fine Links</h2>
+
+    <p>My favourite website is <a href="https://www.google.com" target="_blank">Google</a>.</p> <!--href: attribute to specify address, target: attribute for opening in new window (best for external links only); tags = nouns, attributes = adjectives-->
+    <!--a tag can stand by itself but is typically inside sth else-->
+
+    <h3>My favourite music links</h3>
+    <h4>My favourite classical music websites</h4>
+    <h5>My favourite Beethoven music websites</h5>
+    <h6>My favourite website about Beethoven's 9th Symphony</h6>
+    <!--hierchary, in practice rarely past h3-->
+
+    <p><a href=book.html>To book markup exercise.</a></p>
+
+</body>
+</html>
